@@ -4,8 +4,10 @@
 #include "Components/ActorComponent.h"
 #include "HandComponent.generated.h"
 
-
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+/**
+* C++ base class for hand/motion controller component. Can create Blueprint subclasses to add custom functionality.
+*/
+UCLASS(ClassGroup=(VRInteractivityPack), meta=(IsBlueprintBase = "true"))
 class VRINTERACTIVITYPACK_API UHandComponent : public UActorComponent
 {
 	GENERATED_BODY()

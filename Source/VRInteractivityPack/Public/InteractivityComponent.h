@@ -4,8 +4,10 @@
 #include "Components/SceneComponent.h"
 #include "InteractivityComponent.generated.h"
 
-
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+/**
+* Base class for all interactivity components.
+*/
+UCLASS(Abstract, ClassGroup=(VRInteractivityPack))
 class UInteractivityComponent : public USceneComponent
 {
 	GENERATED_BODY()
