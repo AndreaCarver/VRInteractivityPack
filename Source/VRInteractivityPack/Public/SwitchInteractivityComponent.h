@@ -12,7 +12,7 @@ class VRINTERACTIVITYPACK_API USwitchInteractivityComponent : public UInteractiv
 {
 	GENERATED_BODY()
 	
-	
-	
+public:
+	USwitchInteractivityComponent();
 	
 };

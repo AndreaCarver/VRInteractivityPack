@@ -12,7 +12,7 @@ class VRINTERACTIVITYPACK_API UButtonInteractivityComponent : public UInteractiv
 {
 	GENERATED_BODY()
 	
-	
-	
+public:
+	UButtonInteractivityComponent();
 	
 };

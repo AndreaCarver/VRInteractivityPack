@@ -12,7 +12,7 @@ class UGrabbableInteractivityComponent : public UInteractivityComponent
 {
 	GENERATED_BODY()
 	
-	
-	
+public:
+	UGrabbableInteractivityComponent();
 	
 };

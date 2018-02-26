@@ -12,7 +12,7 @@ class VRINTERACTIVITYPACK_API UTwistInteractivityComponent : public UGrabbableIn
 {
 	GENERATED_BODY()
 	
-	
-	
+public:
+	UTwistInteractivityComponent();
 	
 };

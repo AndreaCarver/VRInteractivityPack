@@ -12,7 +12,7 @@ class VRINTERACTIVITYPACK_API UPickupInteractivityComponent : public UGrabbableI
 {
 	GENERATED_BODY()
 	
-	
-	
+public:
+	UPickupInteractivityComponent();
 	
 };

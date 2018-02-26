@@ -12,7 +12,7 @@ class VRINTERACTIVITYPACK_API ULeverInteractivityComponent : public UGrabbableIn
 {
 	GENERATED_BODY()
 	
-	
-	
+public:
+	ULeverInteractivityComponent();
 	
 };

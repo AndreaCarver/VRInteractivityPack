@@ -1,9 +1,8 @@
 #include "InteractivityComponent.h"
 
 
-// Sets default values for this component's properties
-UInteractivityComponent::UInteractivityComponent()
-{
+// Set default property values
+UInteractivityComponent::UInteractivityComponent() {
 	// Set this component to be initialized when the game starts, and to be ticked every frame.  You can turn these features
 	// off to improve performance if you don't need them.
 	PrimaryComponentTick.bCanEverTick = true;
@@ -13,8 +12,7 @@ UInteractivityComponent::UInteractivityComponent()
 
 
 // Called when the game starts
-void UInteractivityComponent::BeginPlay()
-{
+void UInteractivityComponent::BeginPlay() {
 	Super::BeginPlay();
 
 	// ...
@@ -23,8 +21,7 @@ void UInteractivityComponent::BeginPlay()
 
 
 // Called every frame
-void UInteractivityComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
-{
+void UInteractivityComponent::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
 
 	// ...
