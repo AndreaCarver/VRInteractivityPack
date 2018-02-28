@@ -7,9 +7,9 @@
 /**
  * Base class for all grabbable interactivity components.
  */
-UCLASS(Abstract, ClassGroup=(VRInteractivityPack))
-class UGrabbableInteractivityComponent : public UInteractivityComponent
-{
+UCLASS(Abstract, ClassGroup = (VRInteractivityPack))
+class UGrabbableInteractivityComponent : public UInteractivityComponent {
+	
 	GENERATED_BODY()
 	
 public:

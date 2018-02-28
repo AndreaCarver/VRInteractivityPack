@@ -7,9 +7,9 @@
 /**
 * Base class for all interactivity components.
 */
-UCLASS(Abstract, ClassGroup=(VRInteractivityPack))
-class UInteractivityComponent : public USceneComponent
-{
+UCLASS(Abstract, ClassGroup = (VRInteractivityPack))
+class UInteractivityComponent : public USceneComponent {
+	
 	GENERATED_BODY()
 
 public:	

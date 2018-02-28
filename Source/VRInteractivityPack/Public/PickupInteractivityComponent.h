@@ -7,9 +7,9 @@
 /**
  * A component that specifies a point at which a HandComponent can grab and pick up.
  */
-UCLASS(ClassGroup=(VRInteractivityPack), DisplayName="Pickup", meta=(BlueprintSpawnableComponent))
-class VRINTERACTIVITYPACK_API UPickupInteractivityComponent : public UGrabbableInteractivityComponent
-{
+UCLASS(ClassGroup = (VRInteractivityPack), DisplayName = "Pickup", meta = (BlueprintSpawnableComponent))
+class VRINTERACTIVITYPACK_API UPickupInteractivityComponent : public UGrabbableInteractivityComponent {
+	
 	GENERATED_BODY()
 	
 public:

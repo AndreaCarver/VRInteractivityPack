@@ -7,9 +7,9 @@
 /**
  * An interactive switch component that can be physically toggled by a HandComponent.
  */
-UCLASS(ClassGroup=(VRInteractivityPack), DisplayName="Switch", meta=(BlueprintSpawnableComponent))
-class VRINTERACTIVITYPACK_API USwitchInteractivityComponent : public UInteractivityComponent
-{
+UCLASS(ClassGroup = (VRInteractivityPack), DisplayName = "Switch", meta = (BlueprintSpawnableComponent))
+class VRINTERACTIVITYPACK_API USwitchInteractivityComponent : public UInteractivityComponent {
+	
 	GENERATED_BODY()
 	
 public:
