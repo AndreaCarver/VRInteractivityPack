@@ -1,6 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "Runtime/CoreUObject/Public/UObject/ConstructorHelpers.h"
 #include "InteractivityComponent.h"
 #include "GrabbableInteractivityComponent.generated.h"
 
@@ -20,5 +21,7 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grab Surface")
 	FTransform SurfaceOffset;
+
+	UStaticMeshComponent* SurfaceShapeVisualizer;
 	
 };

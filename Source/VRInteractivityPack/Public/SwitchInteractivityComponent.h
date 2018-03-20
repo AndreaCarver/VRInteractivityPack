@@ -16,10 +16,10 @@ public:
 	USwitchInteractivityComponent();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
-	UStaticMesh* SwitchMesh;
+	UStaticMeshComponent* SwitchMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
-	UStaticMesh* HousingMesh;
+	UStaticMeshComponent* HousingMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
 	float AngleRange = 90.0;

@@ -16,10 +16,10 @@ public:
 	UTwistInteractivityComponent();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
-	UStaticMesh* TwistMesh;
+	UStaticMeshComponent* TwistMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
-	UStaticMesh* HousingMesh;
+	UStaticMeshComponent* HousingMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
 	float AngleRange = 360.0;
