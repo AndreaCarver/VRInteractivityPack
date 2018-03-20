@@ -17,11 +17,17 @@ public:
 	UGrabbableInteractivityComponent();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grab Surface")
-	ESurfaceShape SurfaceShape;
+	ESurfaceShape SurfaceShape = ESurfaceShape::SS_SphereLarge;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grab Surface")
 	FTransform SurfaceOffset;
 
 	UStaticMeshComponent* SurfaceShapeVisualizer;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grab Surface")
+	bool TestBool = false;
 	
+private:
+	virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;
+
 };
