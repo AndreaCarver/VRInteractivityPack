@@ -14,5 +14,11 @@ class VRINTERACTIVITYPACK_API UPickupInteractivityComponent : public UGrabbableI
 	
 public:
 	UPickupInteractivityComponent();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grab Surface")
+	ESymmetryAxis SymmetryAxis;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	float Mass;
 	
 };

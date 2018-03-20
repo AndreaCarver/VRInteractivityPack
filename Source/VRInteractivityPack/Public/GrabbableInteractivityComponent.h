@@ -14,5 +14,11 @@ class UGrabbableInteractivityComponent : public UInteractivityComponent {
 	
 public:
 	UGrabbableInteractivityComponent();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grab Surface")
+	ESurfaceShape SurfaceShape;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grab Surface")
+	FTransform SurfaceOffset;
 	
 };

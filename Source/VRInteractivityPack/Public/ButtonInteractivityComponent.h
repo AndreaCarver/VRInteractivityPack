@@ -14,5 +14,25 @@ class VRINTERACTIVITYPACK_API UButtonInteractivityComponent : public UInteractiv
 	
 public:
 	UButtonInteractivityComponent();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
+	UStaticMesh* ButtonMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
+	UStaticMesh* HousingMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	UMaterialInterface* EnabledMaterial;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	UMaterialInterface* DisabledMaterial;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	float DefaultButtonOffset;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	float RequiredPressDepth;
+
+	float CurrentPressDepth;
 	
 };

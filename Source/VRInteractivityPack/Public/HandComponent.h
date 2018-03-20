@@ -1,8 +1,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
-#include "GrabPointEnums.h"
-#include "InteractivityComponent.h"
+#include "VRInteractivityPack.h"
 #include "Components/ActorComponent.h"
 #include "HandComponent.generated.h"
 
@@ -35,8 +34,7 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hand")
 	USkeletalMeshComponent* HandMesh;
 
-	UPROPERTY()
-	UInteractivityComponent* GrabbedInteractivityComponent;
+	ESurfaceShape RequestedSurfaceShape;
 
 protected:
 	virtual void BeginPlay() override;

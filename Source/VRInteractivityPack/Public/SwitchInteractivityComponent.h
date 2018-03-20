@@ -14,5 +14,22 @@ class VRINTERACTIVITYPACK_API USwitchInteractivityComponent : public UInteractiv
 	
 public:
 	USwitchInteractivityComponent();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
+	UStaticMesh* SwitchMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
+	UStaticMesh* HousingMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	float AngleRange;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	float SwitchLength;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	bool DefaultActivation;
+
+	float CurrentFingerAngle;
 	
 };

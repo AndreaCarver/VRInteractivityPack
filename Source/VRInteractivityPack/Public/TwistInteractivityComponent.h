@@ -14,5 +14,19 @@ class VRINTERACTIVITYPACK_API UTwistInteractivityComponent : public UGrabbableIn
 	
 public:
 	UTwistInteractivityComponent();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
+	UStaticMesh* TwistMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
+	UStaticMesh* HousingMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	float AngleRange;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	float DefaultAngle;
+
+	float CurrentTargetAngle;
 	
 };

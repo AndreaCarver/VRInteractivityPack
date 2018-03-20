@@ -14,5 +14,25 @@ class VRINTERACTIVITYPACK_API ULeverInteractivityComponent : public UGrabbableIn
 	
 public:
 	ULeverInteractivityComponent();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
+	UStaticMesh* LeverMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
+	UStaticMesh* HousingMesh;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	float LeverLength;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	float AngleRange;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	float DefaultAngle;
+
+	float CurrentTargetAngle;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
+	float Drag;
 	
 };
