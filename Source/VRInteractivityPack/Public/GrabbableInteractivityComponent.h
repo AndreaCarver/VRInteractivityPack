@@ -26,6 +26,9 @@ public:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grab Surface")
 	bool TestBool = false;
+
+	UStaticMesh* SurfaceShapePlane;
+	UStaticMesh* SurfaceShapeSphereLarge;
 	
 private:
 	virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;
