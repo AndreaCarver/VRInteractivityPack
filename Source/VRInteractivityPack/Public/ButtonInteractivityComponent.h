@@ -28,10 +28,10 @@ public:
 	UMaterialInterface* DisabledMaterial;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
-	float DefaultButtonOffset;
+	float DefaultButtonOffset = 0.05;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
-	float RequiredPressDepth;
+	float RequiredPressDepth = 0.05;
 
 	float CurrentPressDepth;
 	

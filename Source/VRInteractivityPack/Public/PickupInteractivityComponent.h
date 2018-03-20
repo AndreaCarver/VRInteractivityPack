@@ -19,6 +19,6 @@ public:
 	ESymmetryAxis SymmetryAxis;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
-	float Mass;
+	float Mass = 1.0;
 	
 };

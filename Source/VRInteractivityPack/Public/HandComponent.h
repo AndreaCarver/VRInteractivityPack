@@ -26,6 +26,7 @@ class VRINTERACTIVITYPACK_API UHandComponent : public UActorComponent {
 
 public:	
 	UHandComponent();
+	
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Hand")

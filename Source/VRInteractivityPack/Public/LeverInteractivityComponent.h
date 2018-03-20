@@ -22,17 +22,17 @@ public:
 	UStaticMesh* HousingMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
-	float LeverLength;
+	float LeverLength = 1.0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
-	float AngleRange;
+	float AngleRange = 90.0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
-	float DefaultAngle;
+	float DefaultAngle = 45.0;
 
 	float CurrentTargetAngle;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
-	float Drag;
+	float Drag = 0.0;
 	
 };

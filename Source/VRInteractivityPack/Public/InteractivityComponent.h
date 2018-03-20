@@ -30,9 +30,9 @@ class UInteractivityComponent : public USceneComponent {
 
 public:	
 	UInteractivityComponent();
+	
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
 	UHandComponent* InteractingWith;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")

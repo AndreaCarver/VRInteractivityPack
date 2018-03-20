@@ -22,13 +22,13 @@ public:
 	UStaticMesh* HousingMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
-	float AngleRange;
+	float AngleRange = 90.0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
-	float SwitchLength;
+	float SwitchLength = 0.05;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
-	bool DefaultActivation;
+	bool DefaultActivation = true;
 
 	float CurrentFingerAngle;
 	
