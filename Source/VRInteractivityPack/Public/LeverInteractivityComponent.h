@@ -16,10 +16,10 @@ public:
 	ULeverInteractivityComponent();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
-	UStaticMeshComponent* LeverMesh;
+	UStaticMesh* LeverMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
-	UStaticMeshComponent* HousingMesh;
+	UStaticMesh* HousingMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
 	float LeverLength = 1.0;

@@ -16,10 +16,10 @@ public:
 	UButtonInteractivityComponent();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
-	UStaticMeshComponent* ButtonMesh;
+	UStaticMesh* ButtonMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Appearance")
-	UStaticMeshComponent* HousingMesh;
+	UStaticMesh* HousingMesh;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
 	UMaterialInterface* EnabledMaterial;

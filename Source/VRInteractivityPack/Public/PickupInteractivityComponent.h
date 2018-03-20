@@ -16,7 +16,7 @@ public:
 	UPickupInteractivityComponent();
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grab Surface")
-	ESymmetryAxis SymmetryAxis;
+	ESymmetryAxis SymmetryAxis = ESymmetryAxis::SA_X;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Interactivity")
 	float Mass = 1.0;
