@@ -27,7 +27,10 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Grab Surface")
 	bool TestBool = false;
 
+	UPROPERTY()
 	UStaticMesh* SurfaceShapePlane;
+
+	UPROPERTY()
 	UStaticMesh* SurfaceShapeSphereLarge;
 	
 private:
