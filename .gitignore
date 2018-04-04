@@ -5,6 +5,9 @@ documents/~$*.ppt*
 # In-game testing files
 Content/Test/*
 
+# Plugin dependencies
+Plugins/*
+
 # Visual Studio 2015 user specific files
 .vs/
 
